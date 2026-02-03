@@ -1,10 +1,12 @@
+//Problem: Write a C program to delete the element at a given 1-based position pos from an array of n integers. Shift remaining elements to the left.
 #include <stdio.h>
 
 int main() {
-    int arr[100], n, pos, i;
+    int  n, pos, i;
 
     printf("Enter number of elements in array: ");
     scanf("%d", &n);
+    int arr[n];
 
     printf("Enter %d elements:\n", n);
     for (i = 0; i < n; i++) {
@@ -28,4 +30,3 @@ int main() {
 
         return 0;
     }
-    
