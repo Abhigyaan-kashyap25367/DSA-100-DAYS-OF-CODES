@@ -1,3 +1,5 @@
+//Problem: A system receives two separate logs of user arrival times from two different servers. Each log is already sorted in ascending order. Your task is to create a single chronological log that preserves the correct order of arrivals.
+
 #include <stdio.h>
 #include <stdlib.h>
 
